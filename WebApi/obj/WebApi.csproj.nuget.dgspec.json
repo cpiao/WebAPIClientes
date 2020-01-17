@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucienne\\source\\repos\\WebApi\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\Lucienne\\Documents\\GitHub\\WebAPI\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucienne\\source\\repos\\WebApi\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\Lucienne\\Documents\\GitHub\\WebAPI\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucienne\\source\\repos\\WebApi\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\Lucienne\\Documents\\GitHub\\WebAPI\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\Lucienne\\source\\repos\\WebApi\\WebApi\\WebApi.csproj",
+        "projectPath": "C:\\Users\\Lucienne\\Documents\\GitHub\\WebAPI\\WebApi\\WebApi.csproj",
         "packagesPath": "C:\\Users\\Lucienne\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucienne\\source\\repos\\WebApi\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Lucienne\\Documents\\GitHub\\WebAPI\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

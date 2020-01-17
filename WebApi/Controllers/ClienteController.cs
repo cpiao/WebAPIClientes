@@ -76,10 +76,17 @@ namespace WebApi.Controllers
         [HttpPost]
         public async Task<ActionResult<Cliente>> PostCliente(Cliente cliente)
         {
-            _context.Cliente.Add(cliente);
-            await _context.SaveChangesAsync();
-            //cliente.CalculaIdade();
-            return CreatedAtAction("GetCliente", new { id = cliente.ClienteId }, cliente);
+            if (ValidaCpf.IsCpf(cliente.Cpf))
+            {
+                _context.Cliente.Add(cliente);
+                await _context.SaveChangesAsync();
+                return CreatedAtAction("GetCliente", new { id = cliente.ClienteId }, cliente);
+            }
+            else
+            {
+                return NotFound("Cpf Inválido");
+            }
+
         }
 
         // DELETE: api/Cliente/5
